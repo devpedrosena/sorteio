@@ -63,19 +63,32 @@ body {
 
 @media only screen and (max-width: 600px){
 
-
 body > h1 {
     font-size: 30px;
 }
 
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .conteudo{
-    max-width: 55vh;
     padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
 
 .conteudo > p {
     font-size: 14px;
     padding: 10px;
+    text-align: center;
 }
 
 }
