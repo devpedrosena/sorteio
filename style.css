@@ -61,6 +61,13 @@ body {
     border: none;
 }
 
+.arrow{
+
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+
 @media only screen and (max-width: 600px){
 
 body > h1 {
