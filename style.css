@@ -98,4 +98,11 @@ body > h1 {
     text-align: center;
 }
 
+.arrow{
+
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-bottom: 100px;
+}
+
 }
